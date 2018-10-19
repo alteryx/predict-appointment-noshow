@@ -30,6 +30,13 @@ def load_data(path):
         data.rename(columns={column: column.lower()}, inplace=True)
     data['appointment_day'] = data['appointment_day'] + pd.Timedelta('1d') - pd.Timedelta('1s')
 
+
+    data["neighborhood"] = data["neighborhood"].astype('category')
+    data["patient_id"] = data["patient_id"].astype('int')
+
+    for bool_col in ["scholarship", "hypertension", "diabetes", "alcoholism", "handicap", "sms_received"]:
+        data[bool_col] = data[bool_col].astype(bool)
+
     data['no_show'] = data['no_show'].map({'No': False, 'Yes': True})
 
     # Show the size of the data in a print statement
