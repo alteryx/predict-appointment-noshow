@@ -16,6 +16,7 @@ In this tutorial, we show how [Featuretools](https://www.featuretools.com) can b
 
 ## Running the tutorial
 If you would like to work on Kaggle, the Tutorial notebook [has been uploaded](https://www.kaggle.com/sjrothsc/using-featuretools-for-missed-appointments) as a kernel. You can fork that notebook to use as a starting point. If you prefer to work locally:
+
 1. Clone the repo
 
     ```
