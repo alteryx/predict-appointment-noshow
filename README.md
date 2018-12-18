@@ -14,11 +14,6 @@ In this tutorial, we show how [Featuretools](https://www.featuretools.com) can b
 * We use a secondary time index to generate features from the no-show column without leaking invalid information.
 
 
-## Notebook
-
-Link to notebook: [Tutorial](Tutorial.ipynb)
-
-
 ## Running the tutorial
 If you would like to work on Kaggle, the Tutorial notebook [has been uploaded](https://www.kaggle.com/sjrothsc/using-featuretools-for-missed-appointments) as a kernel. You can fork that notebook to use as a starting point. If you prefer to work locally:
 1. Clone the repo
@@ -30,14 +25,16 @@ git clone https://github.com/Featuretools/predict-appointment-noshow.git
 2. Install the requirements
 
 ```
-pip install featuretools
-pip install sklearn
-pip install bokeh
+pip install -r requirements.txt
 ```
 
 3. Download the data
 
-You can download the data from [Kaggle](https://www.kaggle.com/joniarroba/noshowappointments) or create a kernel and use Featuretools there. After downloading, save the CSV to a directory called `data` in the root of this repository.
+    You can download the data from [Kaggle](https://www.kaggle.com/joniarroba/noshowappointments) or create a kernel and use Featuretools there. After downloading, save the CSV to a directory called `data` in the root of this repository.
+
+4. Run the Tutorial notebook:<br>
+    - [Tutorial](Tutorial.ipynb)
+
 
 ## Feature Labs
 <a href="https://www.featurelabs.com/">
