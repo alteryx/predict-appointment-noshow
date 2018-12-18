@@ -18,15 +18,15 @@ In this tutorial, we show how [Featuretools](https://www.featuretools.com) can b
 If you would like to work on Kaggle, the Tutorial notebook [has been uploaded](https://www.kaggle.com/sjrothsc/using-featuretools-for-missed-appointments) as a kernel. You can fork that notebook to use as a starting point. If you prefer to work locally:
 1. Clone the repo
 
-```
-git clone https://github.com/Featuretools/predict-appointment-noshow.git
-```
+    ```
+    git clone https://github.com/Featuretools/predict-appointment-noshow.git
+    ```
 
 2. Install the requirements
 
-```
-pip install -r requirements.txt
-```
+    ```
+    pip install -r requirements.txt
+    ```
 
 3. Download the data
 
