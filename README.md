@@ -33,9 +33,17 @@ If you would like to work on Kaggle, the Tutorial notebook [has been uploaded](h
 
     You can download the data from [Kaggle](https://www.kaggle.com/joniarroba/noshowappointments) or create a kernel and use Featuretools there. After downloading, save the CSV to a directory called `data` in the root of this repository.
 
-4. Run the Tutorial notebook:<br>
-    - [Tutorial](Tutorial.ipynb)
+4. Run the [Tutorial](Tutorial.ipynb) using Jupyter
 
+    ```
+    jupyter notebook
+    ```
+
+    or
+
+    ```
+    jupyter lab
+    ```
 
 ## Feature Labs
 <a href="https://www.featurelabs.com/">
