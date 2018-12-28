@@ -2,4 +2,3 @@ featuretools>=0.5.1
 scikit-learn>=0.20.1
 bokeh>=1.0.2
 jupyter>=1.0.0
-jupyterlab>=0.33.12
