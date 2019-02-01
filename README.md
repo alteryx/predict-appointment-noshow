@@ -25,7 +25,21 @@ If you would like to work on Kaggle, the Tutorial notebook [has been uploaded](h
 
 2. Install the requirements
 
+    #### Mac OS
     ```
+    brew install graphviz
+    pip install -r requirements.txt
+    ```
+
+    #### Linux
+    ```
+    sudo apt-get install graphviz
+    pip install -r requirements.txt
+    ```
+
+    #### Windows
+    ```
+    conda install python-graphviz
     pip install -r requirements.txt
     ```
 
