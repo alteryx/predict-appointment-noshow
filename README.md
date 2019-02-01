@@ -25,23 +25,11 @@ If you would like to work on Kaggle, the Tutorial notebook [has been uploaded](h
 
 2. Install the requirements
 
-    #### Mac OS
     ```
-    brew install graphviz
     pip install -r requirements.txt
     ```
-
-    #### Linux
-    ```
-    sudo apt-get install graphviz
-    pip install -r requirements.txt
-    ```
-
-    #### Windows
-    ```
-    conda install python-graphviz
-    pip install -r requirements.txt
-    ```
+    
+    *Also, You will need to install **graphviz** for this demo. Please install graphviz according to the instructions in the [Featuretools Documentation](https://docs.featuretools.com/getting_started/install.html)*
 
 3. Download the data
 
